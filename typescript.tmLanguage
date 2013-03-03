@@ -120,6 +120,38 @@
 			<string>meta.function.ts</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string>Match tabs</string>
+			<key>name</key>
+			<string>meta.tab</string>
+			<key>match</key>
+			<string>[\t]+</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Match spaces</string>
+			<key>name</key>
+			<string>meta.space</string>
+			<key>match</key>
+			<string>[ ]+</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Match tab indentation</string>
+			<key>name</key>
+			<string>meta.tab.indent</string>
+			<key>match</key>
+			<string>^[\t]+</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Match space indentation</string>
+			<key>name</key>
+			<string>meta.space.indent</string>
+			<key>match</key>
+			<string>^[ ]+</string>
+		</dict>
+		<dict>
 			<key>include</key>
 			<string>source.js</string>
 		</dict>
